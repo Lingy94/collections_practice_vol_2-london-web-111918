@@ -51,6 +51,7 @@ def count_elements(array)
   end.uniq
 end
 
+
 def merge_data(array1, array2)
     array2[0].values.map.with_index do |v, i| 
       array1[i].merge(v)
@@ -84,3 +85,11 @@ def organize_schools(hash_of_schools)
     end
     return new_hash
 end
+
+def merge_data(hash1, hash2)
+  hash1.each do |k, v|
+    hash1[k] = hash2
+  end
+end
+
+
