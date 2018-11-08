@@ -91,6 +91,7 @@ def merge_data(hash1, hash2)
     hash2.each do |k, v|
    
     hash1[k] = v
+    end
   end
 end
 
