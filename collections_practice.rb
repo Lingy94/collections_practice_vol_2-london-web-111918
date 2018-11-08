@@ -54,7 +54,6 @@ end
 
 def merge_data(array1, array2)
     array2[0].values.map.with_index do |v, i| 
-      binding.pry
       array1[i].merge(v)
     end
 end
