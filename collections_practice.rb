@@ -88,7 +88,7 @@ end
 
 def merge_data(hash1, hash2)
   hash1.each do |k|
-    hash2.each do |k, v|
+    hash2.each do |k2, v|
       binding.pry
       hash1[k] = v
     end
